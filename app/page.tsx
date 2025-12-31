@@ -7,7 +7,9 @@ const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 
 const Page = async () => {
 
-    const response = await fetch("/api/events");
+    const response = await fetch("/api/events", {
+        next: { revalidate: 3600 }, // 1 hour
+    });
     const { events } = await response.json();
 
     return (
