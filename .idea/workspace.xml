@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac467a99-b05a-4e1f-9363-1b01a067d34b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/actions/event.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/actions/booking.actions.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/events/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/events/route.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/events/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/events/[slug]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/event.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/database/event.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/BookEvent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/BookEvent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +65,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;api-routes&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
     &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
     &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
@@ -78,18 +81,6 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="QodanaHighlightedReportService">
-    <option name="localRunNotPublishedPersistedInfo">
-      <LocalReportPersistedInfo>
-        <option name="path" value="C:\Users\ACER\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
-        <option name="reportGuid" value="f1ef4e2a-c122-4815-b78a-934dbfb9debb" />
-        <option name="reportName" value="eventsss/qodana/2025-12-29" />
-      </LocalReportPersistedInfo>
-    </option>
-  </component>
-  <component name="QodanaIsSelectedPersistenceService">
-    <option name="selectedOrLoading" value="true" />
-  </component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\ACER\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="f1ef4e2a-c122-4815-b78a-934dbfb9debb" reportId="eventsss/qodana/2025-12-29" />
@@ -144,7 +135,9 @@
       <workItem from="1766296869976" duration="4770000" />
       <workItem from="1766302857828" duration="6931000" />
       <workItem from="1766395587305" duration="4922000" />
-      <workItem from="1766981665004" duration="16149000" />
+      <workItem from="1766981665004" duration="20639000" />
+      <workItem from="1767091045372" duration="7215000" />
+      <workItem from="1767152935523" duration="4577000" />
     </task>
     <task id="LOCAL-00001" summary="Delete Unwanted Files">
       <option name="closed" value="true" />
@@ -154,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765689415890</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changes">
+      <option name="closed" value="true" />
+      <created>1767009291605</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1767009291605</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +177,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Delete Unwanted Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete Unwanted Files" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
